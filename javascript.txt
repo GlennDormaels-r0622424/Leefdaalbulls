@@ -1,0 +1,33 @@
+            <script>
+                function hoveren(tab, hoogte) {
+                    document.getElementById(tab).onmouseover = function () {
+                        document.getElementById(tab).style.height = hoogte;
+                        document.getElementById(tab).style.paddingtop = '16px';
+                        document.getElementById(tab).style.backgroundColor = '#660000';
+                        document.getElementsByTagName(angular)
+
+                    };
+                    document.getElementById(tab).onmouseout = function () {
+                        document.getElementById(tab).style.height = '32px';
+                        document.getElementById(tab).style.paddingtop = '14px';
+                        document.getElementById(tab).style.backgroundColor = '#060706';
+                    };
+                };
+
+                hoveren('tab1', '37px');
+                hoveren('tab2', '37px');
+                hoveren('tab3', '37px');
+                hoveren('tab4', '37px');
+                hoveren('tab5', '37px');
+            </script>
+
+
+.knop {
+    width: 19.5%;
+    height: 32px;
+    text-align: center;
+    padding-top: 14px;
+    position: relative;
+    float: left;
+    background-color: #060706;
+}
